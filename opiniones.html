@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Cuéntanos tu opinión</title>
+    <meta name="autor" content="Dennis Gabriela Coy Calderón" />
+    <meta name="descripcion" content="Formulario de opiniones sobre aportes de Bill Gates" />
+    <meta name="keywords" content="Bill, Gates, Opinion, Microsoft, Aportes" />
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+    <!-- Datos con el contenido que aparece en el navegador -->
+    <h1>¿Qué opinas?</h1>
+    <p>A continuación aparecen unas preguntas para que nos des tu opinión sobre lo presentado en la página</p>
+    <form name = "Opina">
+        <label>Nombre: <input type="text"></label><br /> <!--Uso de br para separar el nombre de la pregunta-->
+        <label>Apellido: <input type="text"></label><br />
+        <label>Email: <input type="email"></label><br />
+        <label>Fecha de nacimiento: <input type="date"></label><br />
+        <fieldset>
+        <legend> ¿Cuál aporte te ha parecido más relevante? </legend>
+            <label> <input type=checkbox name=size> Ordenadores personales </label>
+            <label> <input type=checkbox name=size> Creación del S.O. Windows </label>
+            <label> <input type=checkbox name=size> Apple </label>
+            <label> <input type=checkbox name=size> Fundación </label>
+            <label> <input type=checkbox name=size> Máquina que genera agua potable y electricidad sostenible </label>
+        </fieldset>
+        <fieldset>
+            <legend> De las frases de Bill Gates, ¿Cuál te aporta más a tu crecimiento personal o profesional? </legend>
+                <label> <input type=checkbox name=size> Frase 1 </label>
+                <label> <input type=checkbox name=size> Frase 2 </label>
+                <label> <input type=checkbox name=size> Frase 3 </label>
+                <label> <input type=checkbox name=size> Frase 4 </label>
+            </fieldset>
+        <fieldset>
+            <legend> ¿Conoces algún aporte más? </legend>
+                <label> <input type=radio name=size> Si </label>
+                <label> <input type=radio name=size> No </label>
+            </fieldset>
+        <label>Cuéntanos qué otro aporte conoces</label><br />
+        <textarea cols="70" rows="4" ></textarea><br />
+        <label>Cuéntanos tus sugerencias para la página web</label><br />
+        <textarea cols="70" rows="4" ></textarea>
+        <input type="button" value="Enviar">
+       </form>
+</body>
+</html>
