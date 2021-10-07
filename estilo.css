@@ -1,0 +1,76 @@
+/*Navegador*/
+
+nav a {
+  padding: 0.7em;
+  background-color: #dddddd;
+  text-decoration: none;
+}
+
+/*Párrafos y títulos*/
+
+  /*Especificidad: 001*/
+body {
+    font-family: arial, sans-serif;
+    color: #000000;
+    background-color: #fff;
+    }
+  /*Especificidad: 001*/
+h1 {
+    color: #fff;    
+    background-color:#061433; 
+    text-transform: uppercase;
+    padding: 0.3em; 
+    text-align: center;     
+  }
+
+/*Imágenes y video*/
+
+img {
+    width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+    height: auto;
+    display: block; /*Centrado de imagen - se trata como un bloque*/
+    margin: auto; /*Centrado de imagen*/
+  }
+
+video{
+    max-width: 50%;
+    height: auto;
+    display: block; /*Centrado de video - se trata como un bloque*/
+    margin: auto; /*Centrado de video*/
+  }
+
+/*Formulario*/
+
+input{
+    color: #776860;
+	  margin: 0em 0 1.875em 0;
+    padding: 0 0 0.875em 0;
+	  width: 100%;
+  }
+
+textarea {
+  color: #776860;
+	margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  width: 100%;
+  }
+  
+fieldset {
+	margin: 0em 0 1.875em 0;
+  width: 100%;
+}
+
+form {
+    padding: 5em;
+    margin: 5em;
+  }
+
+input[type=button]{
+  background-color: #061433;
+  cursor: pointer;
+  border-radius: 0.4em;
+  padding: 0.8em;
+  width: 10%;
+  display: block; /*Centrado de boton - se trata como un bloque*/
+  margin: auto; /*Centrado de boton*/
+}
