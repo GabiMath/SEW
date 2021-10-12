@@ -3,10 +3,16 @@
 nav a {
   padding: 0.7em;
   background-color: #dddddd;
+  color: #061433;
   text-decoration: none;
 }
 
-/*Párrafos y títulos*/
+nav a:hover {
+  background-color: #193980;
+  color: white;
+}
+
+/*Párrafos, títulos, secciones, encabezados y pie de página*/
 
   /*Especificidad: 001*/
 body {
@@ -15,13 +21,36 @@ body {
     background-color: #fff;
     }
   /*Especificidad: 001*/
+
+section{
+  padding: 0.2em 3em;
+}
+
 h1 {
     color: #fff;    
     background-color:#061433; 
     text-transform: uppercase;
     padding: 0.3em; 
-    text-align: center;     
+    text-align: center;  
   }
+
+main {
+  padding: 0.2em 5em;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 0.2em;
+    margin-top: 1.5em;
+    background-color: #061433;
+    color: white;
+  }
+
+footer a{
+  color: #ddddddb4;
+}
+
 
 /*Listas */
 
@@ -32,7 +61,7 @@ dt {
 
 /*Imágenes y video*/
 
-img {
+figure img {
     width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
     height: auto;
     display: flex; /*Centrado de imagen - contenedor flexible*/
@@ -49,8 +78,7 @@ video{
 /*Tabla*/
 
 table {
-  width: 90%;
-  /*display: flex; /*Centrado de tabla - contenedor flexible*/
+  width: 80%;
   margin: auto; /*Centrado de tabla*/
 }
 
@@ -67,9 +95,10 @@ th {
   background: #AAACB6;
 }
 
-caption {
+figcaption, caption {
   font-weight: bold;
   font-style: italic;
+  text-align: center;
 }
 
 /*Formulario*/
@@ -103,6 +132,5 @@ input[type=button]{
   border-radius: 0.4em;
   padding: 0.8em;
   width: 10%;
-  display: flex; /*Centrado de boton - se trata como un bloque*/
   margin: auto; /*Centrado de boton*/
 }
