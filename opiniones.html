@@ -23,33 +23,33 @@
     <h1>¿Qué opinas?</h1>
     <p>A continuación aparecen unas preguntas para que nos des tu opinión sobre lo presentado en la página</p>
     <form name = "Opina">
-        <label>Nombre: <input type="text"></label> <!--Uso de br para separar el nombre de la pregunta-->
-        <label>Apellido: <input type="text"></label>
-        <label>Email: <input type="email"></label>
-        <label>Fecha de nacimiento: <input type="date"></label>
+        <label for="nom">Nombre: </label><input id="nom" type="text" /><br /> <!--Uso de br para separar el nombre de la pregunta-->
+        <label for="ape">Apellido: </label><input id="ape" type="text" /><br />
+        <label for="em">Email: </label><input id="em" type="email" /><br />
+        <label for="fn">Fecha de nacimiento: </label><input id="fn" type="date" /><br />
         <fieldset>
         <legend> ¿Cuál aporte te ha parecido más relevante? </legend>
-            <label> <input type=checkbox name=size> Ordenadores personales </label>
-            <label> <input type=checkbox name=size> Creación del S.O. Windows </label>
-            <label> <input type=checkbox name=size> Apple </label>
-            <label> <input type=checkbox name=size> Fundación </label>
-            <label> <input type=checkbox name=size> Máquina que genera agua potable y electricidad sostenible </label>
+            <label for="op">  Ordenadores personales </label><input id="op" type=checkbox /><br />
+            <label for="so"> Creación del S.O. Windows </label><input id="so" type=checkbox /><br /> 
+            <label for="apple"> Apple </label><input id="apple" type=checkbox /><br /> 
+            <label for="fun"> Fundación </label><input id="fun" type=checkbox /><br /> 
+            <label for="maq"> Máquina que genera agua potable y electricidad sostenible </label><input id="maq" type=checkbox name=size /><br /> 
         </fieldset>
         <fieldset>
             <legend> De las frases de Bill Gates, ¿Cuál te aporta más a tu crecimiento personal o profesional? </legend>
-                <label> <input type=checkbox name=size> Frase 1 </label>
-                <label> <input type=checkbox name=size> Frase 2 </label>
-                <label> <input type=checkbox name=size> Frase 3 </label>
-                <label> <input type=checkbox name=size> Frase 4 </label>
+                <label for="f1"> Frase 1 </label><input id="f1" type=checkbox /><br /> 
+                <label for="f2"> Frase 2 </label><input id="f2" type=checkbox /><br /> 
+                <label for="f3"> Frase 3 </label><input id="f3" type=checkbox /><br /> 
+                <label for="f4"> Frase 4 </label><input id="f4" type=checkbox /><br />
             </fieldset>
         <fieldset>
             <legend> ¿Conoces algún aporte más? </legend>
-                <label> <input type=radio name=size> Si </label>
-                <label> <input type=radio name=size> No </label>
+                <label for="si"> Si </label> <input id="si" type=radio /><br />
+                <label for="no">No </label> <input id="no" type=radio /><br />
             </fieldset>
-        <label>Cuéntanos qué otro aporte conoces<textarea cols="70" rows="4" ></textarea></label>
-        <label>Cuéntanos tus sugerencias para la página web<textarea cols="70" rows="4" ></textarea></label>
-        <input type="button" value="Enviar">
+        <label for="aporte">Cuéntanos qué otro aporte conoces</label><textarea id="aporte" cols="70" rows="4" ></textarea><br />
+        <label for="suge">Cuéntanos tus sugerencias para la página web</label><textarea id="suge" cols="70" rows="4" ></textarea><br />
+        <input type="submit" value="Enviar">
        </form>
 
        <footer>
