@@ -1,113 +1,144 @@
-/*Navegador*/
+/* ---- NAVEGADOR ----*/
+/*Posicionamiento flex*/
 
-nav a {
+/*Especificidad: 001*/
+nav{
+  display: flex;
+  flex-wrap: wrap; /*Uso de wrap para ajustar los ítems al espacio*/
+  justify-content: center;
+}
+
+/*Especificidad: 002*/
+nav a{
   padding: 0.7em;
   background-color: #dddddd;
   color: #061433;
-  text-decoration: none;
+  border: 0.05em solid #061433;
+  text-decoration-line: none;
+  margin: 0.7em; /*Separación de botones*/
 }
 
-nav a:hover {
+/*Cambio de color cuando se pone el cursor sobre el botón*/
+/*Especificidad: 012*/
+nav a:hover{
   background-color: #193980;
   color: white;
 }
 
-/*Párrafos, títulos, secciones, encabezados y pie de página*/
+/*Especificidad: 012*/
+nav a[class="actual"]{
+  background-color: #193980;
+  color: white;
+}
 
-  /*Especificidad: 001*/
-body {
-    font-family: arial, sans-serif;
-    color: #000000;
-    background-color: #fff;
-    }
-  /*Especificidad: 001*/
+/* -----Párrafos, títulos, secciones, encabezados y pie de página ------*/
 
+/*Especificidad: 001*/
+body{
+  font-family: arial, sans-serif;
+  color: #000000;
+  background-color: #fff;
+}
+
+/*Especificidad: 001*/
 section{
   padding: 0.2em 3em;
 }
 
-h1 {
-    color: #fff;    
-    background-color:#061433; 
-    text-transform: uppercase;
-    padding: 0.3em; 
-    text-align: center;  
-  }
+/*Especificidad: 001*/
+h1{
+  color: #fff;    
+  background-color:#061433; 
+  text-transform: uppercase;
+  padding: 0.3em; 
+  text-align: center;  
+}
 
-main {
+/*Especificidad: 001*/
+main{
   padding: 0.2em 5em;
 }
 
-footer {
-    text-align: center;
-    font-size: small;
-    padding: 0.2em;
-    margin-top: 1.5em;
-    background-color: #061433;
-    color: white;
-  }
+/*Especificidad: 001*/
+footer{
+  text-align: center;
+  font-size: small;
+  padding: 0.2em;
+  margin-top: 1.5em;
+  background-color: #061433;
+  color: white;
+}
 
+/*Especificidad: 002*/
 footer a{
   color: #ddddddb4;
 }
 
 
-/*Listas */
+/* ---- LISTAS ---- */
 
-dt {
+/*Especificidad: 001*/
+dt{
   font-weight: bold;
   font-style: italic;
 }
 
-/*Imágenes y video*/
+/* ----- IMÁGENES Y VIDEO ------*/
 
+/*Especificidad: 002*/
 figure img {
-    width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
-    height: auto;
-    display: flex; /*Centrado de imagen - contenedor flexible*/
-    margin: auto; /*Centrado de imagen*/
-  }
+  width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+  height: auto;
+  display: flex; /*Centrado de imagen - contenedor flexible*/
+  margin: auto; /*Centrado de imagen*/
+}
 
+/*Especificidad: 001*/
 video{
-    max-width: 50%;
-    height: auto;
-    display: flex; /*Centrado de video - contenedor flexible*/
-    margin: auto; /*Centrado de video*/
-  }
+  max-width: 50%;
+  height: auto;
+  display: flex; /*Centrado de video - contenedor flexible*/
+  margin: auto; /*Centrado de video*/
+}
 
-/*Tabla*/
+/* ---- TABLA ----*/
 
-table {
+/*Especificidad: 001*/
+table{
   width: 80%;
   margin: auto; /*Centrado de tabla*/
 }
 
-th, td {
+/*Especificidad: 001*/
+th, td{
   text-align: center;
   border: 0.1em solid #061433;
 }
 
+/*Especificidad: 001*/
 td {
   background: #eee;
 }
 
+/*Especificidad: 001*/
 th {
   background: #AAACB6;
 }
 
+/*Especificidad: 001*/
 figcaption, caption {
   font-weight: bold;
   font-style: italic;
   text-align: center;
 }
 
-/*Formulario*/
+/* ---- FORMULARIO ----
 
 input{
     color: #776860;
 	  margin: 0em 0 1em 0;
-    padding: 0 0 0.875em 0;
-	  width: 100%;
+    /*padding: 0 0 0.875em 0;
+	  width: 50%;
   }
 
 textarea {
@@ -132,5 +163,5 @@ input[type=button]{
   border-radius: 0.4em;
   padding: 0.8em;
   width: 10%;
-  margin: auto; /*Centrado de boton*/
-}
+  margin: auto; /*Centrado de boton
+}*/
