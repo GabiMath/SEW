@@ -12,9 +12,7 @@ nav {
 /*Especificidad: 002*/
 nav a {
   padding: 1em;
-  /*background-color: #dddddd;*/
   color: #dddddd;
-  /*border: 0.05em solid #061433;*/
   text-decoration-line: none;
 }
 
@@ -53,6 +51,12 @@ h1 {
 /*Especificidad: 001*/
 main {
   padding: 0.2em 5em;
+}
+
+@media (max-width: 37.5em){
+  main {
+    padding: 0.2em 0.5em;
+  }
 }
 
 /*Especificidad: 001*/
@@ -103,6 +107,7 @@ video {
 table {
   width: 80%;
   margin: auto; /*Centrado de tabla*/
+  overflow-x: auto;
 }
 
 /*Especificidad: 001*/
