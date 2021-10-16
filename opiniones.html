@@ -1,62 +1,93 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html lang="es">
-<head>
+  <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
     <title>Cuéntanos tu opinión</title>
     <meta name="autor" content="Dennis Gabriela Coy Calderón" />
-    <meta name="descripcion" content="Formulario de opiniones sobre aportes de Bill Gates" />
+    <meta
+      name="descripcion"
+      content="Formulario de opiniones sobre aportes de Bill Gates"
+    />
     <meta name="keywords" content="Bill, Gates, Opinion, Microsoft, Aportes" />
     <link rel="stylesheet" type="text/css" href="opiniones.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Datos con el contenido que aparece en el navegador -->
     <!--NAVEGADOR-->
     <nav>
-        <a accesskey="A" tabindex="1" href="index.html" >Inicio</a> 
-        <a accesskey="S" tabindex="2" href="aportes.html" >Aportes</a> 
-        <a accesskey="D" tabindex="3" href="accionesmicrosoft.html">Acciones Microsoft</a>
-        <a accesskey="W" tabindex="4" href="windows.html">Historia de Windows</a>
-        <a accesskey="E" tabindex="5" href="opiniones.html" class="actual">Opiniones</a>
+      <a accesskey="A" tabindex="1" href="index.html">Inicio</a>
+      <a accesskey="S" tabindex="2" href="aportes.html">Aportes</a>
+      <a accesskey="D" tabindex="3" href="accionesmicrosoft.html"
+        >Acciones Microsoft</a
+      >
+      <a accesskey="W" tabindex="4" href="windows.html">Historia de Windows</a>
+      <a accesskey="E" tabindex="5" href="opiniones.html" class="actual"
+        >Opiniones</a
+      >
     </nav>
 
-    <h1>¿Qué opinas?</h1>
-    <p>A continuación aparecen unas preguntas para que nos des tu opinión sobre lo presentado en la página</p>
-    <form name = "Opina">
-        <label for="nom">Nombre: </label><input id="nom" type="text" /><br /> <!--Uso de br para separar el nombre de la pregunta-->
+    <main>
+      <h1>¿Qué opinas?</h1>
+      <p>
+        A continuación aparecen unas preguntas para que nos des tu opinión sobre
+        lo presentado en la página
+      </p>
+      <form name="Opina">
+        <label for="nom">Nombre: </label><input id="nom" type="text" /><br />
+        <!--Uso de br para separar el nombre de la pregunta-->
         <label for="ape">Apellido: </label><input id="ape" type="text" /><br />
         <label for="em">Email: </label><input id="em" type="email" /><br />
-        <label for="fn">Fecha de nacimiento: </label><input id="fn" type="date" /><br />
+        <label for="fn">Fecha de nacimiento: </label
+        ><input id="fn" type="date" /><br />
         <fieldset>
-        <legend> ¿Cuál aporte te ha parecido más relevante? </legend>
-            <input id="op" type=checkbox /><label for="op">  Ordenadores personales </label><br />
-            <input id="so" type=checkbox /><label for="so"> Creación del S.O. Windows </label><br /> 
-            <input id="apple" type=checkbox /><label for="apple"> Apple </label><br /> 
-            <input id="fun" type=checkbox /><label for="fun"> Fundación </label><br /> 
-            <input id="maq" type=checkbox name=size /><label for="maq"> Máquina que genera agua potable y electricidad sostenible </label><br /> 
+          <legend>¿Cuál aporte te ha parecido más relevante?</legend>
+          <input id="op" type="checkbox" /><label for="op">
+            Ordenadores personales </label
+          ><br />
+          <input id="so" type="checkbox" /><label for="so">
+            Creación del S.O. Windows </label
+          ><br />
+          <input id="apple" type="checkbox" /><label for="apple"> Apple </label
+          ><br />
+          <input id="fun" type="checkbox" /><label for="fun"> Fundación </label
+          ><br />
+          <input id="maq" type="checkbox" name="size" /><label for="maq">
+            Máquina que genera agua potable y electricidad sostenible </label
+          ><br />
         </fieldset>
         <fieldset>
-            <legend> De las frases de Bill Gates, ¿Cuál te aporta más a tu crecimiento personal o profesional? </legend>
-                <input id="f1" type=checkbox /><label for="f1"> Frase 1 </label><br /> 
-                <input id="f2" type=checkbox /><label for="f2"> Frase 2 </label><br /> 
-                <input id="f3" type=checkbox /><label for="f3"> Frase 3 </label><br /> 
-                <input id="f4" type=checkbox /><label for="f4"> Frase 4 </label><br />
-            </fieldset>
+          <legend>
+            De las frases de Bill Gates, ¿Cuál te aporta más a tu crecimiento
+            personal o profesional?
+          </legend>
+          <input id="f1" type="checkbox" /><label for="f1"> Frase 1 </label
+          ><br />
+          <input id="f2" type="checkbox" /><label for="f2"> Frase 2 </label
+          ><br />
+          <input id="f3" type="checkbox" /><label for="f3"> Frase 3 </label
+          ><br />
+          <input id="f4" type="checkbox" /><label for="f4"> Frase 4 </label
+          ><br />
+        </fieldset>
         <fieldset>
-            <legend> ¿Conoces algún aporte más? </legend>
-                <input id="si" type=radio /><label for="si"> Si </label> <br />
-                <input id="no" type=radio /><label for="no">No </label> <br />
-            </fieldset>
-        <label for="aporte">Cuéntanos qué otro aporte conoces</label><textarea id="aporte" cols="70" rows="4" ></textarea><br />
-        <label for="suge">Cuéntanos tus sugerencias para la página web</label><textarea id="suge" cols="70" rows="4" ></textarea><br />
+          <legend>¿Conoces algún aporte más?</legend>
+          <input id="si" type="radio" /><label for="si"> Si </label> <br />
+          <input id="no" type="radio" /><label for="no">No </label> <br />
+        </fieldset>
+        <label for="aporte">Cuéntanos qué otro aporte conoces</label
+        ><textarea id="aporte" cols="70" rows="4"></textarea><br />
+        <label for="suge">Cuéntanos tus sugerencias para la página web</label
+        ><textarea id="suge" cols="70" rows="4"></textarea><br />
         <button type="submit">Enviar</button>
-       </form>
+      </form>
+    </main>
 
-       <footer>
-        <p>Autor: Dennis Gabriela Coy Calderón</p>
-        <p><a href="mailto:UO291696@uniovi.es">UO291696@uniovi.es</a></p>
-      </footer>
-</body>
+    <footer>
+      <p>Autor: Dennis Gabriela Coy Calderón</p>
+      <p><a href="mailto:UO291696@uniovi.es">UO291696@uniovi.es</a></p>
+    </footer>
+  </body>
 </html>

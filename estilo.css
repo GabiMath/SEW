@@ -2,60 +2,61 @@
 /*Posicionamiento flex*/
 
 /*Especificidad: 001*/
-nav{
+nav {
   display: flex;
   flex-wrap: wrap; /*Uso de wrap para ajustar los ítems al espacio*/
   justify-content: center;
+  background-color: #061433;
 }
 
 /*Especificidad: 002*/
-nav a{
-  padding: 0.7em;
-  background-color: #dddddd;
-  color: #061433;
-  border: 0.05em solid #061433;
+nav a {
+  padding: 1em;
+  /*background-color: #dddddd;*/
+  color: #dddddd;
+  /*border: 0.05em solid #061433;*/
   text-decoration-line: none;
-  margin: 0.7em; /*Separación de botones*/
 }
 
 /*Cambio de color cuando se pone el cursor sobre el botón*/
 /*Especificidad: 012*/
-nav a:hover{
-  background-color: #193980;
-  color: white;
+nav a:hover {
+  background-color: #dddddd;
+  color: #061433;
 }
 
 /*Especificidad: 012*/
-nav a[class="actual"]{
-  background-color: #193980;
-  color: white;
+nav a[class="actual"] {
+  background-color: #dddddd;
+  color: #061433;
 }
 
 /* -----Párrafos, títulos, secciones, encabezados y pie de página ------*/
 
 /*Especificidad: 001*/
-body{
+body {
   font-family: arial, sans-serif;
   color: #000000;
   background-color: #fff;
+  margin: 0;
 }
 
 /*Especificidad: 001*/
-h1{
-  color: #fff;    
-  background-color:#061433; 
+h1 {
+  color: #fff;
+  background-color: #061433;
   text-transform: uppercase;
-  padding: 0.3em; 
-  text-align: center;  
+  padding: 0.3em;
+  text-align: center;
 }
 
 /*Especificidad: 001*/
-main{
+main {
   padding: 0.2em 5em;
 }
 
 /*Especificidad: 001*/
-footer{
+footer {
   text-align: center;
   font-size: small;
   padding: 0.2em;
@@ -65,15 +66,14 @@ footer{
 }
 
 /*Especificidad: 002*/
-footer a{
+footer a {
   color: #ddddddb4;
 }
-
 
 /* ---- LISTAS ---- */
 
 /*Especificidad: 001*/
-dt{
+dt {
   font-weight: bold;
   font-style: italic;
 }
@@ -82,6 +82,7 @@ dt{
 
 /*Especificidad: 002*/
 img {
+  min-width: 20rem;
   width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
   height: auto;
   display: flex; /*Centrado de imagen - contenedor flexible*/
@@ -89,7 +90,7 @@ img {
 }
 
 /*Especificidad: 001*/
-video{
+video {
   max-width: 60%;
   height: auto;
   display: flex; /*Centrado de video - contenedor flexible*/
@@ -99,13 +100,14 @@ video{
 /* ---- TABLA ----*/
 
 /*Especificidad: 001*/
-table{
+table {
   width: 80%;
   margin: auto; /*Centrado de tabla*/
 }
 
 /*Especificidad: 001*/
-th, td{
+th,
+td {
   text-align: center;
   border: 0.1em solid #061433;
 }
@@ -117,11 +119,12 @@ td {
 
 /*Especificidad: 001*/
 th {
-  background: #AAACB6;
+  background: #aaacb6;
 }
 
 /*Especificidad: 001*/
-figcaption, caption {
+figcaption,
+caption {
   font-weight: bold;
   font-style: italic;
   text-align: center;
