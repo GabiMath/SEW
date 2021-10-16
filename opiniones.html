@@ -8,7 +8,7 @@
     <meta name="autor" content="Dennis Gabriela Coy Calderón" />
     <meta name="descripcion" content="Formulario de opiniones sobre aportes de Bill Gates" />
     <meta name="keywords" content="Bill, Gates, Opinion, Microsoft, Aportes" />
-	<link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="stylesheet" type="text/css" href="opiniones.css" />
 </head>
 
 <body>
@@ -30,27 +30,27 @@
         <label for="fn">Fecha de nacimiento: </label><input id="fn" type="date" /><br />
         <fieldset>
         <legend> ¿Cuál aporte te ha parecido más relevante? </legend>
-            <label for="op">  Ordenadores personales </label><input id="op" type=checkbox /><br />
-            <label for="so"> Creación del S.O. Windows </label><input id="so" type=checkbox /><br /> 
-            <label for="apple"> Apple </label><input id="apple" type=checkbox /><br /> 
-            <label for="fun"> Fundación </label><input id="fun" type=checkbox /><br /> 
-            <label for="maq"> Máquina que genera agua potable y electricidad sostenible </label><input id="maq" type=checkbox name=size /><br /> 
+            <input id="op" type=checkbox /><label for="op">  Ordenadores personales </label><br />
+            <input id="so" type=checkbox /><label for="so"> Creación del S.O. Windows </label><br /> 
+            <input id="apple" type=checkbox /><label for="apple"> Apple </label><br /> 
+            <input id="fun" type=checkbox /><label for="fun"> Fundación </label><br /> 
+            <input id="maq" type=checkbox name=size /><label for="maq"> Máquina que genera agua potable y electricidad sostenible </label><br /> 
         </fieldset>
         <fieldset>
             <legend> De las frases de Bill Gates, ¿Cuál te aporta más a tu crecimiento personal o profesional? </legend>
-                <label for="f1"> Frase 1 </label><input id="f1" type=checkbox /><br /> 
-                <label for="f2"> Frase 2 </label><input id="f2" type=checkbox /><br /> 
-                <label for="f3"> Frase 3 </label><input id="f3" type=checkbox /><br /> 
-                <label for="f4"> Frase 4 </label><input id="f4" type=checkbox /><br />
+                <input id="f1" type=checkbox /><label for="f1"> Frase 1 </label><br /> 
+                <input id="f2" type=checkbox /><label for="f2"> Frase 2 </label><br /> 
+                <input id="f3" type=checkbox /><label for="f3"> Frase 3 </label><br /> 
+                <input id="f4" type=checkbox /><label for="f4"> Frase 4 </label><br />
             </fieldset>
         <fieldset>
             <legend> ¿Conoces algún aporte más? </legend>
-                <label for="si"> Si </label> <input id="si" type=radio /><br />
-                <label for="no">No </label> <input id="no" type=radio /><br />
+                <input id="si" type=radio /><label for="si"> Si </label> <br />
+                <input id="no" type=radio /><label for="no">No </label> <br />
             </fieldset>
         <label for="aporte">Cuéntanos qué otro aporte conoces</label><textarea id="aporte" cols="70" rows="4" ></textarea><br />
         <label for="suge">Cuéntanos tus sugerencias para la página web</label><textarea id="suge" cols="70" rows="4" ></textarea><br />
-        <input type="submit" value="Enviar">
+        <button type="submit">Enviar</button>
        </form>
 
        <footer>

@@ -1,0 +1,25 @@
+@import url('estilo.css');
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: auto;
+}
+
+input{
+    padding: 0.2rem 1rem;
+}
+
+button{
+    background-color: #061433;
+    color: white;
+    border-radius: 0.8rem;
+    /*cursor: pointer;*/
+    margin: auto; /*Centrado de boton*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+  }
