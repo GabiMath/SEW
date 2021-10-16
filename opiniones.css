@@ -16,10 +16,7 @@ button{
     background-color: #061433;
     color: white;
     border-radius: 0.8rem;
-    /*cursor: pointer;*/
-    margin: auto; /*Centrado de boton*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    cursor: pointer;
+    margin: auto;
     padding: 0.5rem 1rem;
   }
