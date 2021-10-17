@@ -54,6 +54,7 @@ main {
 }
 
 @media (max-width: 37.5em){
+/*Especificidad: 001*/
   main {
     padding: 0.2em 0.5em;
   }
@@ -84,9 +85,9 @@ dt {
 
 /* ----- IMÁGENES Y VIDEO ------*/
 
-/*Especificidad: 002*/
+/*Especificidad: 001*/
 img {
-  min-width: 20rem;
+  min-width: 20em;
   width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
   height: auto;
   display: flex; /*Centrado de imagen - contenedor flexible*/
@@ -107,7 +108,6 @@ video {
 table {
   width: 80%;
   margin: auto; /*Centrado de tabla*/
-  overflow-x: auto;
 }
 
 /*Especificidad: 001*/

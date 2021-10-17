@@ -1,5 +1,6 @@
 @import url('estilo.css');
 
+/*Especificidad: 001*/
 form {
     display: flex;
     justify-content: center;
@@ -8,10 +9,12 @@ form {
     margin: auto;
 }
 
+/*Especificidad: 001*/
 input{
-    padding: 0.2rem 1rem;
+    padding: 0.2em 1em;
 }
 
+/*Especificidad: 001*/
 button{
     background-color: #061433;
     color: white;
