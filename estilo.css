@@ -7,11 +7,13 @@ nav {
   flex-wrap: wrap; /*Uso de wrap para ajustar los ítems al espacio*/
   justify-content: center;
   background-color: #061433;
+  color: #dddddd;
 }
 
 /*Especificidad: 002*/
 nav a {
   padding: 1em;
+  background-color: #061433;
   color: #dddddd;
   text-decoration-line: none;
 }
@@ -73,6 +75,7 @@ footer {
 /*Especificidad: 002*/
 footer a {
   color: #ddddddb4;
+  background-color: #061433;
 }
 
 /* ---- LISTAS ---- */
@@ -120,11 +123,13 @@ td {
 /*Especificidad: 001*/
 td {
   background: #eee;
+  color: #000000;
 }
 
 /*Especificidad: 001*/
 th {
   background: #aaacb6;
+  color: #000000;
 }
 
 /*Especificidad: 001*/
