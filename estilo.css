@@ -90,15 +90,15 @@ dt {
 
 /*Especificidad: 001*/
 img {
-  min-width: 14em;
-  width: 38%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+  min-width: 20em;
+  width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
   height: auto;
   display: flex; /*Centrado de imagen - contenedor flexible*/
   margin: auto; /*Centrado de imagen*/
 }
 
 audio {
-  width: auto;
+  width: 30%;
   display: flex;
   margin: auto;
 }
