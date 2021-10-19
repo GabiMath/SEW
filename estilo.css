@@ -55,13 +55,6 @@ main {
   padding: 0.2em 5em;
 }
 
-@media (max-width: 37.5em){
-/*Especificidad: 001*/
-  main {
-    padding: 0.2em 0.5em;
-  }
-}
-
 /*Especificidad: 001*/
 footer {
   text-align: center;
