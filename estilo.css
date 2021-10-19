@@ -97,12 +97,6 @@ img {
   margin: auto; /*Centrado de imagen*/
 }
 
-audio {
-  width: 30%;
-  display: flex;
-  margin: auto;
-}
-
 /*Especificidad: 001*/
 video {
   max-width: 60%;
