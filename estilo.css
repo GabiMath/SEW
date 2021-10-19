@@ -90,7 +90,7 @@ dt {
 
 /*Especificidad: 001*/
 img {
-  /*min-width: 20em;*/
+  min-width: 10em;
   width: 38%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
   height: auto;
   display: flex; /*Centrado de imagen - contenedor flexible*/
