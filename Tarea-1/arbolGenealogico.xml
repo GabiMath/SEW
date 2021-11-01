@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es arbolGenealogico.xsd" >
+<persona nombre="Dennis Gabriela" apellido="Coy Calderón">
+<!--Datos-->
+<datos>
+<fechaNacimiento>2001-04-25</fechaNacimiento>
+<lugarNacimiento>"Bogotá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/yo.jpg"</fotografia>
+<comentario>"Estudiante de matemáticas y Analista de Inteligencia de Negocios en Liberty Seguros"</comentario>
+</datos>
+<!--Madre-->
+<persona nombre="Luz Mary" apellido="Calderón Vargas">
+<datos>
+<fechaNacimiento>1967-10-13</fechaNacimiento>
+<lugarNacimiento>"Bogotá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/madre.jpg"</fotografia>
+<comentario>"Docente de Biología y Química, Bióloga de la Universidad Javeriana, madre de dos hijos"</comentario>
+</datos>
+<!--Abuela-->
+<persona nombre="Elizabeth" apellido="Vargas Vargas">
+<datos>
+<fechaNacimiento>1938-10-10</fechaNacimiento>
+<lugarNacimiento>"Armenia, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-75.68111</longitud>
+<latitud>4.53389</latitud>
+<altitud>1551</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>2020-03-24</fechaFallecimiento>
+<lugarFallecimiento>"Bogotá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/abuela_madre.jpeg"</fotografia>
+<comentario>"Empresaria de la industria automotriz"</comentario>
+</datos>
+
+<!--Bisabuela-->
+<persona nombre="Flor Maria" apellido="Vargas Dueñas">
+<datos>
+<fechaNacimiento>1910-11-23</fechaNacimiento>
+<lugarNacimiento>"Armenia, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-75.68111</longitud>
+<latitud>4.53389</latitud>
+<altitud>1551</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1980-06-14</fechaFallecimiento>
+<lugarFallecimiento>"Bogotá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuela_abuela_madre.jpeg"</fotografia>
+<comentario>"Empresaria en finca raíz"</comentario>
+</datos>
+</persona>
+
+<!--Bisabuelo-->
+<persona nombre="Julio" apellido="Vargas">
+<datos>
+<fechaNacimiento>1908-10-27</fechaNacimiento>
+<lugarNacimiento>"Armenia, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-75.68111</longitud>
+<latitud>4.53389</latitud>
+<altitud>1551</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1940-06-14</fechaFallecimiento>
+<lugarFallecimiento>"Bogotá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuelo_abuela_madre.jpg"</fotografia>
+<comentario>"Coronel del ejército colombiano"</comentario>
+</datos>
+</persona>
+
+</persona>
+<!--Abuelo-->
+<persona nombre="Pedro Pablo" apellido="Calderón Vacca">
+<datos>
+<fechaNacimiento>1946-04-06</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/abuelo_madre.jpeg"</fotografia>
+<comentario>"Empresario de la industria automotriz"</comentario>
+</datos>
+
+<!--Bisabuela-->
+<persona nombre="Reinalda" apellido="Vacca">
+<datos>
+<fechaNacimiento>1911-07-13</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1985-06-14</fechaFallecimiento>
+<lugarFallecimiento>"Boyacá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuela_abuelo_madre.jpg"</fotografia>
+<comentario>"Agricultora"</comentario>
+</datos>
+</persona>
+
+<!--Bisabuelo-->
+<persona nombre="José" apellido="Calderón">
+<datos>
+<fechaNacimiento>1907-05-17</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1986-09-19</fechaFallecimiento>
+<lugarFallecimiento>"Boyacá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuelo_abuelo_madre.jpg"</fotografia>
+<comentario>"Agricultor"</comentario>
+</datos>
+</persona>
+
+</persona>
+
+</persona>
+<!--Padre-->
+<persona nombre="Miguel Antonio" apellido="Coy Gonzalez">
+<datos>
+<fechaNacimiento>1963-01-21</fechaNacimiento>
+<lugarNacimiento>"Bogotá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-74.08175</longitud>
+<latitud>4.60971</latitud>
+<altitud>2640</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/padre.PNG"</fotografia>
+<comentario>"Docente de Biología y Química, Biólogo de la Universidad Javeriana"</comentario>
+</datos>
+
+<!--Abuela-->
+<persona nombre="Julieta" apellido="Gonzalez De Coy">
+<datos>
+<fechaNacimiento>1938-05-13</fechaNacimiento>
+<lugarNacimiento>"Girón, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.16981</longitud>
+<latitud>7.0682</latitud>
+<altitud>701</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/abuela_padre.jpeg"</fotografia>
+<comentario>"Empresaria en la industria del transporte y turismo"</comentario>
+</datos>
+
+<!--Bisabuela-->
+<persona nombre="Sara" apellido="Perez">
+<datos>
+<fechaNacimiento>1905-07-19</fechaNacimiento>
+<lugarNacimiento>"Girón, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.167</longitud>
+<latitud>7.067</latitud>
+<altitud>701</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1989-09-04</fechaFallecimiento>
+<lugarFallecimiento>"Girón, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.167</longitud>
+<latitud>7.067</latitud>
+<altitud>701</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuela_abuela_padre.jpg"</fotografia>
+<comentario>"Agricultora"</comentario>
+</datos>
+</persona>
+
+<!--Bisabuelo-->
+<persona nombre="Juan" apellido="Gonzalez">
+<datos>
+<fechaNacimiento>1902-12-12</fechaNacimiento>
+<lugarNacimiento>"Girón, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.167</longitud>
+<latitud>7.067</latitud>
+<altitud>701</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1989-09-04</fechaFallecimiento>
+<lugarFallecimiento>"Girón, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.167</longitud>
+<latitud>7.067</latitud>
+<altitud>701</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuelo_abuela_padre.jpeg"</fotografia>
+<comentario>"Agricultor"</comentario>
+</datos>
+</persona>
+
+
+
+</persona>
+
+<!--Abuelo-->
+<persona nombre="Miguel" apellido="Coy Gomez">
+<datos>
+<fechaNacimiento>1936-01-20</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fotografia>"images/abuelo_padre.jpeg"</fotografia>
+<comentario>"Empresario en la industria metalmecáninca"</comentario>
+</datos>
+
+<!--Bisabuela-->
+<persona nombre="Andrea" apellido="Gomez">
+<datos>
+<fechaNacimiento>1910-05-19</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1989-09-04</fechaFallecimiento>
+<lugarFallecimiento>"Boyacá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuela_abuelo_padre.jpg"</fotografia>
+<comentario>"Agricultora"</comentario>
+</datos>
+</persona>
+
+<!--Bisabuelo-->
+<persona nombre="Fernando" apellido="Coy">
+<datos>
+<fechaNacimiento>1912-11-16</fechaNacimiento>
+<lugarNacimiento>"Boyacá, Colombia"</lugarNacimiento>
+<coordenadasNacimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasNacimiento>
+<fechaFallecimiento>1989-09-04</fechaFallecimiento>
+<lugarFallecimiento>"Boyacá, Colombia"</lugarFallecimiento>
+<coordenadasFallecimiento>
+<longitud>-73.4318</longitud>
+<latitud>4.98458</latitud>
+<altitud>1670</altitud>
+</coordenadasFallecimiento>
+<fotografia>"images/bisabuelo_abuelo_padre.jpg"</fotografia>
+<comentario>"Agricultor"</comentario>
+</datos>
+</persona>
+
+</persona>
+
+
+</persona>
+
+</persona>
+</personas>
